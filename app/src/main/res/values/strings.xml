@@ -1,4 +1,6 @@
 <resources>
     <string name="app_name">About Me</string>
     <string name="name">Paurakh Saud</string>
+    <string name="avater">Avater</string>
+    <string name="myBio">I am Paurakh Saud, a 20-year-old Mobile App Developer based in Kathmandu. With a passion for developing mobile apps, I have dedicated my time to different projects. My journey has been shaped by internship fostering a commitment to create and develop apps. Whether I continuously seek opportunities to [Future Aspirations or Learning Goals]. Beyond [Professional/School Achievements], you can often find me [Additional Interests or Hobbies]. I am excited about [Any Current Projects or Upcoming Ventures] and am always eager to [Any Additional Personal Touch]. Let's connect and explore the possibilities together!</string>
 </resources>

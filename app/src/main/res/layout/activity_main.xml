@@ -12,10 +12,38 @@
 
     <TextView
         android:id="@+id/tvName"
+        style="@style/styTextView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto"
         android:text="@string/name"
-        android:textAlignment="center"
-        android:textColor="@color/black"
-        android:textSize="@dimen/textSize" />
+        android:textAlignment="center" />
+
+    <ImageView
+        android:id="@+id/ivMyPhoto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/avater"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Download CV" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tvBio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="@dimen/padding"
+            android:paddingEnd="@dimen/padding"
+            style="@style/nameStyle"
+            android:text="@string/myBio" />
+    </ScrollView>
+
 </LinearLayout>
